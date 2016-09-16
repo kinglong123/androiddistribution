@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<touch.touchdemo.widget.LinearLayoutN1
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:id="@+id/customLayout"
+
+        android:background="#88000033"
+        tools:context="touch.touchdemo.MainActivity">
+
+    <touch.touchdemo.widget.LinearLayoutN2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="80dp"
+            android:background="#88550000"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <touch.touchdemo.widget.cView
+                android:id="@+id/v1"
+                android:textAllCaps="false"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#368940"
+        />
+
+    </touch.touchdemo.widget.LinearLayoutN2>
+
+</touch.touchdemo.widget.LinearLayoutN1>
